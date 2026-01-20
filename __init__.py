@@ -2,7 +2,12 @@
 Zeta-Guard: AI Training Stability Guardian
 """
 
-from .guard import ZetaGuard, StabilityResult
+try:
+    
+    from .guard import ZetaGuard, StabilityResult
+except ImportError:
+    
+    from guard import ZetaGuard, StabilityResult
 
 __version__ = "0.0.1"
 __author__ = "dz9ikx"
