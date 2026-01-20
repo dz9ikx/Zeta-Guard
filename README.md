@@ -17,7 +17,7 @@ Training modern neural networks is unstable. Models diverge, gradients explode, 
 # 🚀 Quick Start
 Installation
 ```bash
-pip install zeta-guard
+pip install git+https://github.com/dz9ikx/zeta-guard.git
 ```
 
 Basic Usage
